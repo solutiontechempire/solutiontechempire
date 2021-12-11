@@ -1,0 +1,256 @@
+
+body{
+    background-color: rgb(240, 240, 193);
+}
+.parent1{
+    display: flex;
+    background-color: transparent;
+    height: 420px;
+    padding: 30px;
+}
+
+.parent1_child{
+   
+   border: 2px solid white;
+   margin: 0 auto;
+   width: 50%;
+   height: 400px;
+   padding-top: 20px;
+   border-radius: 20px;
+   box-shadow: 2px 3px 2px  rgb(61, 61, 14);
+   background-color: rgb(61, 61, 14);
+    
+}
+
+.field{
+    width: 70%;
+    border: 1px solid white;
+    border-radius: 20px;
+    border-bottom: none;
+    background-color:transparent;
+    color: white;
+}
+
+.field:focus{
+    width: 70%;
+    border: 1px solid white;
+    border-radius: 20px;
+    border-bottom: none;
+    background-color:white;
+    color: black;
+}
+
+.field:hover{
+    width: 70%;
+    border: 1px solid white;
+    border-radius: 20px;
+    border-bottom: none;
+    background-color:rgb(100, 100, 60);
+    color: white;
+}
+
+.labelid{
+    color: rgb(190, 190, 138);
+}
+
+.button1{
+    background-color: rgb(102, 102, 24);
+    color: white;
+    border:  2px solid white;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    width: 25%;
+    border-radius: 0px 20px 0px 20px;
+}
+
+
+.button1:hover{
+    background-color: rgb(150, 150, 71);
+    color: white;
+    border:  2px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding-top: 8px;
+    width: 24%;
+    border-radius: 0px 20px 0px 20px;
+}
+
+#parent2_title{
+    background-color:transparent;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(102, 102, 24);
+    padding-top: 30px;
+    padding-bottom: 18px;
+    margin-top:  0px;
+    margin-bottom: 0px;
+}
+
+.parent2{
+    display: flex;
+
+}
+
+.parent2_child{
+    flex:1;
+}
+
+table{
+    border: 1px solid  rgb(102, 102, 24);
+    width: 100%;
+}
+
+table th{
+    border: 1px solid  rgb(102, 102, 24);
+    background-color: rgb(102, 102, 24);
+    color: white;
+}
+
+table td{
+    border: 0.5px solid  ;
+    background-color: #F5F5F5;
+    color: black;
+    padding: 1px;
+    text-align: center;
+}
+
+
+
+/*
+
+.labelid{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+.data_dashbord{
+    background-color: beige;
+    padding-bottom: 80px;
+    height: 380px;
+}
+
+.data_dashbord h1{
+    background-color: rgb(102, 102, 24);
+    color: white;
+   
+}
+
+.data_dashbord h2{
+    background-color: rgb(102, 102, 24);
+    color: white;
+    padding-bottom: 25px;
+    padding-top: 8px;
+    margin-bottom: 0px;
+}
+
+.data_dashbord button{
+    background-color: rgb(102, 102, 24);
+    color: white;
+    border:  2px solid white;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    width: 20%;
+    border-radius: 0px 20px 0px 20px;
+
+}
+
+
+.field{
+    width: 40%;
+    border-radius: 0px 10px 0px 10px;
+    background-color: transparent;
+    border-color: white;
+    border-bottom: none;
+    color: white;
+}
+
+.field:focus{
+    width: 40%;
+    border-radius: 0px 10px 0px 10px;
+    background-color: white;
+    border-color: white;
+    border-top: none;
+    color: black;
+}
+
+.data_dashbord button:hover{
+    background-color: rgb(150, 150, 71);
+    color: white;
+    border:  2px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding-top: 8px;
+    width: 19%;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.field_background{
+    background-color: rgb(102, 102, 24);
+    width: 60%;
+    height: 300px;
+    padding-top: 20px;
+}
+
+.button1{
+    background-color: rgb(102, 102, 24);
+    color: white;
+    border:  2px solid white;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    width: 20%;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.button1:hover{
+    background-color: rgb(150, 150, 71);
+    color: white;
+    border:  2px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding-top: 8px;
+    width: 19%;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.clear{
+    background-color: rgb(102, 102, 24);
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    margin-top: 0px;
+}
+
+.parent h1{
+    background-color:white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(102, 102, 24);
+    padding-top: 30px;
+    padding-bottom: 18px;
+    margin-top:  0px;
+    margin-bottom: 0px;
+}
+
+table{
+    border: 1px solid  rgb(102, 102, 24);
+    width: 100%;
+}
+
+table th{
+    border: 1px solid  rgb(102, 102, 24);
+    background-color: rgb(102, 102, 24);
+    color: white;
+}
+
+table td{
+    border: 0.5px solid  ;
+    background-color: #F5F5F5;
+    color: black;
+    padding: 1px;
+    text-align: center;
+}
+
+*/
+
+
+

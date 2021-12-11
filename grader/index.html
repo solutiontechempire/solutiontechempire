@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+<link rel="stylesheet" href="./css/looks.css">
+
+</head>
+<body>
+    
+<center> <h1>DATA DASHBORD</h1></center>
+<center>
+
+<!--DATA CAPTURE FORM -->
+<div class="parent1">
+  
+   
+   <div class="parent1_child">
+        
+        <form id="myForm" action="#" >
+                
+                <label class="labelid" for="subject">Subject</label><br>
+                <select name="" id="subject" class="field">
+                    <option value="Select Subject">Select Subject</option>
+                    <option value="MATHEMATICS">MATHEMATICS</option>
+                    <option value="ENGLISH LANGUAGE">ENGLISH LANGUAGE</option>
+                    <option value="PHYSICS">PHYSICS</option>
+                    <option value="CHEMISTRY">CHEMISTRY</option>
+                    <option value="BIOLOGY">BIOLOGY</option>
+                    <option value="AGRICULTURAL SCIENCE">AGRIC SCIENCE</option>
+                    <option value="FURTHER MATHEMATICS">FURHER MATHEMATICS</option>
+                    <option value="ECONOMICS">ECONOMICS</option>
+                    <option value="OTHERS">OTHERS</option>
+
+                </select> <br><br>
+                 
+                <label class="labelid" for="test1">Test One</label><br>
+                <input class="field" type="number" name="test1" id="test1" > <br><br>
+                <label class="labelid" for="test2">Test two</label><br>
+                <input class="field" type="number" name="test2" id="test2" > <br><br>
+                <label class="labelid" for="exams">Exams Score</label><br>
+                <input class="field" type="number" name="exams" id="examscore" > <br><br>
+                
+                <input class="field" type="hidden" name="total" id="total" readonly > <br><br>
+                
+                <input class="field" type="hidden" name="grade" id="grade"  readonly > <br><br>
+            
+                <input class= "button1" id= "button1" type="button" value="Sumit" onclick="trapData()" > 
+                <input class= "button1"  id= "button1" type="button" value="Reset" onclick="erase()"> 
+        </form>
+            
+        
+                
+   </div>
+   
+   </center>
+</div>
+
+<!--DATA RECORD Update SHEET -->
+<h1  id="parent2_title">RECORD UPDATE SHEET</h1>
+<div class="parent2">
+   
+    <div class="parent2_child">
+        <table>
+            
+            <tr>
+                <th>SUBJECT</th>
+                <th>TEST ONE SCORE</th>
+                <th>TEST TWO SCORE</th>
+                <th>EXAMINATION SCORE</th>
+                <th>TOTAL CORE</th>
+                <th>GRADE</th>
+                <th>REMARK</th>
+            </tr>
+
+             <tr>
+               <td ><h6 id="subjectt"></h6></td>
+               <td id="test11">23</td>
+               <td id="test22">21</td>
+               <td id="examss">34</td>
+               <td id="totall">97</td>
+               <td id="gradee">A</td>
+               <td id="remarkk">Excellent</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+        
+    <script src="./js/jscript.js"></script>
+</body>
+</html>
